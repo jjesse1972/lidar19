@@ -1,6 +1,7 @@
 from rplidar import RPLidar
 import time
 
+
 class fieldCoordinates:
     """A frame manager for lidar. This class is responsible for reading lidar data 
     and maintainning a data frame the represents the latest 360 degree view of the field"""
