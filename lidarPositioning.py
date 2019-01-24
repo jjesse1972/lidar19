@@ -61,23 +61,6 @@ class fieldCoordinates:
 
         return {'x': 0,'y':0}
 
-#class lidarDataProcessor:
-#    """A frame manager for lidar. This class is responsible for reading lidar data 
-#    and maintainning a data frame the represents the latest 360 degree view of the field"""
-#
-#    mLidar = None
-   
-#    def __init__(self, lidarDevice):
-#            mLidar = lidarDevice
-
-#   def getMostRecentFrame(self):
-#        lidarArray = []
-#        for measurment in lidar.iter_measurments():
-#            distance = measurment[2]
-#            degrees = measurment[3]
-#            lidarArray.append[{degrees, distance}]
-#            print(lidarArray)
-        
 
 # Simple test
 lidar = RPLidar('COM3')
